@@ -5,6 +5,7 @@ applications:
         build:
           commands:
             - cd ../..
+            - npm install -g next
             - npm install
             - mv node_modules apps/docs
             - cd apps/docs
