@@ -1,0 +1,19 @@
+version: 1
+applications:
+  - frontend:
+      phases:
+        build:
+          commands:
+            - cd ../..
+            - npm install
+            - mv node_modules apps/docs
+            - cd apps/docs
+            - npm run build
+      artifacts:
+        baseDirectory: .next
+        files:
+          - '**/*'
+      cache:
+        paths:
+          - node_modules/**/*
+    appRoot: apps/docs
