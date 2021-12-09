@@ -8,7 +8,9 @@ applications:
             - npm install
             - cd apps/docs
             - npm install
+            - cd .. && cd ..
             - npm run build
+            - cd apps/docs
       artifacts:
         baseDirectory: .next
         files:
