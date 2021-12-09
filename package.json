@@ -34,5 +34,8 @@
         "cache": false
       }
     }
+  },
+  "dependencies": {
+    "@emotion/styled": "^11.6.0"
   }
 }

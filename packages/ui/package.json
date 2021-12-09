@@ -3,5 +3,6 @@
   "version": "1.0.0",
   "main": "./Button.tsx",
   "types": "./Button.tsx",
-  "license": "MIT"
+  "license": "MIT",
+  "@emotion/styled": "^11.6.0"
 }
